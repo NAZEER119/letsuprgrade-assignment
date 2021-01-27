@@ -1,0 +1,23 @@
+console.log(1+ +"2"+"2");
+Answer : 32
+Reason : + or - infront of strings will be converted into numbers and performs the operand
+
+console.log(1+ -"2"+"2");
+Answer : 02
+Reason : + or - infront of strings will be converted into numbers and performs the operand
+
+console.log(1+"0"+"0");
+Answer : 100
+Reason : 1 is number other 0 is strings cannot add with numbers
+
+console.log(+"1"+"1"+"3");
+Answer : 113
+Reason : 1st 1 is converted to number but the rest are not numbers so Answer is 113
+
+console.log("A"-"B"+"2");
+Answer :error
+Reason : we cannot perform subtraction on strings
+
+console.log("A"-"c"+2);
+Answer : error
+Reason : we cannot perform subtraction on strings
